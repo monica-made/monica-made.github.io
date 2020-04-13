@@ -1,12 +1,12 @@
-h1 { color: #ff0099;font-size: 27pt; font-family: fantasy }
-h3 { color: #996633; font-size: 25pt;}
+h1 { color: #ff0099;font-size: 27pt; font-family: "blippo", fantasy; text-align: center; }
+h3 { color: #996633; font-size: 25pt; text-align: center}
 .first { color: #996633; font-family: inherit}
-p { font-size: 15pt; }
+p { font-size: 15pt; text-align: center; }
 .second { color: #ff0099;}
 .third { color: #ff3399; }
 .fourth { color: #ff6699;}
 img { float: inherit; }
-a:hover { color: #ff0099; }
+a:hover, a:link { color: #ff0099; }
 a { text-decoration: none; }
 a { font-size: 10pt }
 main li { color: #996633; }
@@ -17,8 +17,14 @@ h1 { border: 2px solid #996633;
      margin: 20px;
      padding: 10px;
      background-color: #ffcccc; }
-body { 
-        background-color: antiquewhite }
-footer { border-top: 4px dotted #996633;}
-img { padding: 1em; 
-      margin: 1em; }
+body {  background-color: antiquewhite; margin: 15px; }
+footer { border-top: 4px dotted #996633; padding-top: 2em; }
+img { padding-left: 1em;
+      padding-right: 1em;
+      padding-bottom: 1em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+blockquote { text-align: center;
+            font-size: 18px; }
+.fifth { font-size: 100px; }
