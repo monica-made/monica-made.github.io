@@ -1,12 +1,24 @@
-h1 { color: #ff0099;font-size: 30pt; font-family: fantasy }
+h1 { color: #ff0099;font-size: 27pt; font-family: fantasy }
 h3 { color: #996633; font-size: 25pt;}
 .first { color: #996633; font-family: inherit}
 p { font-size: 15pt; }
 .second { color: #ff0099;}
 .third { color: #ff3399; }
 .fourth { color: #ff6699;}
-img { float: none; }
+img { float: inherit; }
 a:hover { color: #ff0099; }
 a { text-decoration: none; }
 a { font-size: 10pt }
 main li { color: #996633; }
+
+h1 { border: 2px solid #996633;
+     width: 1200px;
+     height: 50px;
+     margin: 20px;
+     padding: 10px;
+     background-color: #ffcccc; }
+body { 
+        background-color: antiquewhite }
+footer { border-top: 4px dotted #996633;}
+img { padding: 1em; 
+      margin: 1em; }
