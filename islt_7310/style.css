@@ -1,5 +1,12 @@
-h1 { color: #ff3399; }
+h1 { color: #ff0099;font-size: 30pt; font-family: fantasy }
+h3 { color: #996633; font-size: 25pt;}
+.first { color: #996633; font-family: inherit}
 p { font-size: 15pt; }
-a:hover { color: #ff3399; }
+.second { color: #ff0099;}
+.third { color: #ff3399; }
+.fourth { color: #ff6699;}
+img { float: none; }
+a:hover { color: #ff0099; }
 a { text-decoration: none; }
 a { font-size: 10pt }
+main li { color: #996633; }
