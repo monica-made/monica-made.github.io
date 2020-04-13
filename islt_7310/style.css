@@ -16,7 +16,8 @@ h1 { border: 2px solid #996633;
      height: 50px;
      margin: 20px;
      padding: 10px;
-     background-color: #ffcccc; }
+     background-color: #ffcccc;
+     margin: auto}
 body {  background-color: antiquewhite; margin: 15px; }
 footer { border-top: 4px dotted #996633; padding-top: 2em; }
 img { padding-left: 1em;
@@ -28,4 +29,3 @@ img { padding-left: 1em;
 blockquote { text-align: center;
             font-size: 18px; }
 .fifth { font-size: 100px; }
-<!--<p> 4/12/20 </p>-->
