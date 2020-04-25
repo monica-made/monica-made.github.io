@@ -14,7 +14,7 @@ main li { color: #996633; }
 h1 { border: 2px solid #996633;
      width: 1200px;
      height: 50px;
-     margin-top: 100px;
+     margin-top: 100;
      padding: 10px;
      background-color: #ffcccc;
      position: relative; }
@@ -29,3 +29,6 @@ img { padding-left: 1em;
 blockquote { text-align: center;
             font-size: 18px; }
 .fifth { font-size: 100px; }
+main p:first-child: :first-letter { font-weight: bold; font-size: 150px }
+main p: :first-line { text-indent: 50px }
+p{ font-weight: bold; }
