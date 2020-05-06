@@ -1,4 +1,4 @@
-h1 { color: #ff0099;font-size: 27pt; font-family: "blippo", fantasy; text-align: center; clear: both; }
+h1 { color: #ff0099;font-size: 23.5pt; font-family: "blippo", fantasy; text-align: center; clear: both; }
 h3 { color: #996633; font-size: 25pt; text-align: center}
 .first { color: #996633; font-family: inherit}
 p { font-size: 15pt; text-align: center; }
@@ -11,15 +11,21 @@ a { text-decoration: none; }
 a { font-size: 10pt }
 main li { color: #996633; }
 
-h1 { border: 2px solid #996633;
-     width: 1200px;
+h1 { border: 3px solid #996633;
+     width: 96.875%;
      height: 50px;
      margin-top: 100px;
-     padding: 10px;
+     padding: 20px 1.5625%;
      background-color: #ffcccc;
      position: relative; }
-body {  background-color: antiquewhite; margin: 15px; }
-footer { border-top: 4px dotted #996633; padding-top: 2em; }
+body {  background-color: antiquewhite;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1024px;}
+footer { border-top: 4px dotted #996633; 
+    padding-top: 15px 1.5625%;
+    clear: both;
+    width: 34.375; }
 img { padding-left: 1em;
       padding-right: 1em;
       padding-bottom: 1em;
@@ -29,6 +35,9 @@ img { padding-left: 1em;
 blockquote { text-align: center;
             font-size: 18px; }
 .fifth { font-size: 100px; }
-main p:first-child { font-weight: bold; font-size: 150px }
-main p:first-child { text-indent: 50px }
-p { font-weight: bold; }
+main p: first-child { text-indent: 150px; }
+container { width: 960px; margin: 0px auto; }
+@media screen and (max-width:959px) 
+{ container: width:100%; }
+<!--<p> 5/5/20 </p>--> 
+    
