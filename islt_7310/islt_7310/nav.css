@@ -1,0 +1,23 @@
+nav { margin-bottom: 10px; 
+     }
+nav ul { list-style-type: none;
+       margin: 0;
+        padding: 0;}
+nav ul li {
+     position: relative;
+     float: left; } 
+nav a { text-decoration: none; 
+      border: 1px dotted #996633;
+      width: 100px;
+      display: inline-block;
+      padding: 15px; 
+    margin-right: 20px;
+     }
+nav ul li ul { display: none; 
+            position:absolute;
+            top: 100%;
+            z-index: 5;
+            background-color: #996633;}
+nav ul ul li { float: none; }
+nav ul li:hover > ul { display: block; }
+<!--<p> 5/5/20 </p>--> 
