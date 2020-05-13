@@ -41,14 +41,29 @@ blockquote { text-align: center;
 .fifth { font-size: 100px; }
 main p: first-child { text-indent: 150px; }
 container { width: 960px; margin: 0px auto; }
-@media screen and (max-width:959px) 
-{ container: width:100%; }
+@media screen and (max-width:959px)   
+    { container: width:100%; } 
+table#tablel { width: 90%;
+                margin-left: 5%;
+                margin-right: 5%; }
 .sixth { object-position: right; }
 @media print { .course-files; #logo; .color:black; .font-family: serif; }
 .section1 { color: #ff0099; }
 .section2 { color: #ff3399; }
 .section3 { color: #ff6699; }
-
+table { border-collapse: collapse; }
+table th { text-align:left; 
+            background-color: darkgoldenrod; 
+            color: #FFF;
+            padding: 4px 30px 4px 8px; }
+table td { border: 1px solid #ff6699; 
+            padding: 4px 8px; }
+ResponsiveTable td { border: none; 
+                     position: relative; 
+                     padding-left: 40%;
+                     white-space: normal;
+                    text-align: left; 
+                        }
 
 <!--<p> 5/5/20 </p>--> 
     
