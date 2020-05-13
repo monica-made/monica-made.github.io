@@ -45,6 +45,9 @@ container { width: 960px; margin: 0px auto; }
 { container: width:100%; }
 .sixth { object-position: right; }
 @media print { .course-files; #logo; .color:black; .font-family: serif; }
+.section1 { color: #ff0099; }
+.section2 { color: #ff3399; }
+.section3 { color: #ff6699; }
 
 
 <!--<p> 5/5/20 </p>--> 
